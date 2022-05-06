@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>exemplo de formulario</h3>
+
+    <form action="/cadastrar.php" method="get" >
+        <label for="lbl_nome">nome completo</label> <br>
+        <input type="text " id="input_nome" name="input_none" required> <br><br>
+        <label for="lbl_endereco">Endereço</label> <br>
+        <input type="text" id="input_endereço" name="input_endereco" required> <br><br>
+        <label for="estado">estado</label>
+        <select name="slct_estado" id="slct_estado">
+            <option value="AC">AC</option>
+            <option value="SP">SP</option>
+            <option value="RJ">RJ</option>
+            <option value="MG">MG</option>
+            <option value="AM">AM</option>
+        </select> <br><br>
+        <label for="lbl_email">E-mail</label> <br>
+        <input type="email" id="input_email" name="input_email" required> <br><br>
+        <label for="lbl_celular">celular</label> <br>
+        <input type="tel" id="input_tel" name="input_tel" required pattern="[0-9] {2} [0-9]{5}-[0-9]{4}"
+        placeholder="19 99999-9999"><br><br>
+        <label for="lbl_linkedin">URL linkedin</label> <br>
+        <input type="url" id="input_url" name="input_url"> <br><br>
+        <label for="lbl_data_nasc">Data de nascimento</label> <br>
+        <input type="date" name="inpute_date" id="inpute_date"> <br><br>
+        <label for="lbl_estado_civil">estado civil</label>
+        <select name="slc_estado_civil" id="slc_estado_civil">
+        <option value="solteiro">solteiro</option>
+        <option value="casado">casado</option>
+        <option value="divorciado">divorciado</option>
+        <option value="outro">outro</option>
+    </select>
+        <fieldset style="width: 200px;">
+            <legend>sexo</legend><br>
+            <input type="radio" id="sexo_masc" name="sexo" value="masculino">
+            <label for="sexo_masc">masculino</label>
+            <legend>sexo</legend><br>
+            <input type="radio" id="sexo_fem" name="sexo" value="feminino">
+            <label for="sexo_masc">feminino</label>
+        </fieldset>
+        <br>
+        <label for="lbl_usuario">usuario</label> <br>
+        <input type="text" id="input_text" name="input_text" required> <br><br>
+        <label for="lbl_senha">senha</label> <br>
+        <input type="password" id="input_password" name="input_password" required> <br><br>
+        <label for="lbl_upload">anexar curriculo</label>
+        <input type="file" id="input_file" name="input_file" required> <br><br>
+        <label for="lbl_mensagem">outras informações</label> <br>
+        <textarea name="txt_mensagem" id="txt_mensagem" cols="40" rows="5" maxlength="300" placeholder="insira aqui suas informações"></textarea><br><br>
+        <input type="reset" value="limpar">
+        <input type="submit" value="enviar">
+
+    </form>
+</body>
+</html>

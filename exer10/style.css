@@ -1,0 +1,51 @@
+#cabecalho{
+    background-color: lightblue;
+    color: black;
+    padding: 40px;
+    text-align: center;
+}
+
+.cidade {
+    background-color: tomato;
+    padding: 10px;
+    color: white;
+}
+
+.termo_ingles{
+    background-color: lightblue;
+    font-weight: bold;
+}
+
+.container{
+    border: 3px solid red;
+    text-align: center;
+    background-color: lightcoral;
+    color: white;
+    height: 200px;
+    width: 300px;
+}
+
+h2.mar{
+    margin-top: 30px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+}
+
+p.marg{
+    text-align: center;
+    border: 1px solid blue;
+    background-color: lightblue;
+    margin: 25px 50px 75px 100px;
+    padding: 70px;
+}
+
+h3.mar{
+    border: 2px solid green;
+    width: 300px;
+    margin: auto;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}

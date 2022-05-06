@@ -1,0 +1,26 @@
+h1{color: tomato;
+}
+p{
+    background-color: red;
+    color: dodgerblue;
+}
+h1{
+    background-color: green;
+    opacity: 1.0;
+    border-style: dotted;
+    border-width: 5px;
+}
+h2{
+    background-color: green;
+    opacity: 0.6;
+    border-style: solid;
+    border-width: thick;
+    border-radius: 10px;
+}
+h3{
+    background-color: green;
+    opacity: 0.1;
+    border-style: dotted dashed solid double;
+    border-width: 3px 1px 7px 1px;
+    border-color: red green blue yellow;
+}

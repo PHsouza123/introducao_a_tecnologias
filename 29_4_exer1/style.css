@@ -1,0 +1,19 @@
+ol.a{
+    background: #ff9999;
+    padding: 20px;
+}
+ul {
+    background: #3399ff;
+    padding: 20px;
+  }
+  ol li{
+      background: white;
+      padding: 5px;
+      margin-left: 35px;
+      color: darkblue;
+  }
+  ul li{
+      background: white;
+      color: darkblue;
+      margin: 5px;
+  }
